@@ -19,6 +19,5 @@ elif not (musclePain and fever) and weakness:
 else:
     print("this only cold")
 
-    isCheckCompleted = True
-
-    print("CHECK IS COMPLETED" if isCheckCompleted else "CHECK IS COMPLETED")
+isCheckCompleted = True
+print("CHECK IS COMPLETED" if isCheckCompleted else "CHECK IS COMPLETED")
